@@ -20,5 +20,9 @@ namespace Assignment5
             Modifier = modifier;
             IType = type;
         }
+        public void Show()
+        {
+            Console.WriteLine(Name, Modifier, IType);
+        }
     }
 }

@@ -10,6 +10,7 @@ namespace Assignment5
     {
         int slots;
         List<Item> items;
+        ItemType itemTyoe;
 
         public Inventory(int slots)
         {
@@ -19,18 +20,24 @@ namespace Assignment5
         public void Add(Item item)
         {
             // TODO: add implementation.
+            items.Add(item);
             throw new NotImplementedException();
         }
 
         public void Remove(Item item)
         {
             // TODO: add implementation.
+            items.Remove(item);
             throw new NotImplementedException();
         }
 
         public void ShowInventory()
         {
             // TODO: add implementation.
+            foreach(Item item in items)
+            {
+                items[items.IndexOf(item)].Show();
+            }
             throw new NotImplementedException();
         }
     }

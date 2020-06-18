@@ -25,6 +25,19 @@ namespace Assignment5
             // Remove a few items
             // show the inventory.
 
+
+            Inventory items = new Inventory(5);
+            Item item1 = new Item("Angus", 3, ItemType.consumable);
+            Item item2 = new Item("Li", 4, ItemType.equipment);
+            Item item3 = new Item("Mars", 5, ItemType.key);
+            items.Add(item1);
+            items.Add(item2);
+            items.Add(item3);
+            //items.Remove(item1);
+            items.Remove(item2);
+            //items.Remove(item3);
+            items.ShowInventory();
+
         }
     }
 }
