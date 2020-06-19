@@ -99,15 +99,55 @@ namespace Assignment5
             //Assert.AreEqual(expectedHealthPoints4, mCharacter4.HealthPoints);
             //Assert.AreEqual(expectedHealthPoints5, mCharacter5.HealthPoints);
 
+            //mCharacter1.TakeDamage(1);
+            //int actualAfterDamg1 = mCharacter1.HealthPoints;
+            //int expectedAfterDamg1 = 99;
+            //Assert.AreEqual(expectedAfterDamg1, actualAfterDamg1);
+
+            //mCharacter2.TakeDamage(100);
+            //int actualAfterDamg2 = mCharacter2.HealthPoints;
+            //int expectedAfterDamg2 = 100;
+            //Assert.AreEqual(expectedAfterDamg2, actualAfterDamg2);
+
             mCharacter3.TakeDamage(100);
-            int actualAfterDamg = mCharacter3.HealthPoints;
-            int expectedAfterDamg = 200;
-            Assert.AreEqual(expectedAfterDamg, actualAfterDamg);
+            int actualAfterDamg3 = mCharacter3.HealthPoints;
+            int expectedAfterDamg3 = 200;
+            Assert.AreEqual(expectedAfterDamg3, actualAfterDamg3);
+
+            //mCharacter4.TakeDamage(10);
+            //int actualAfterDamg4 = mCharacter4.HealthPoints;
+            //int expectedAfterDamg4 = 390;
+            //Assert.AreEqual(expectedAfterDamg4, actualAfterDamg4);
+
+            //mCharacter5.TakeDamage(0);
+            //int actualAfterDamg5 = mCharacter5.HealthPoints;
+            //int expectedAfterDamg5 = 500;
+            //Assert.AreEqual(expectedAfterDamg5, actualAfterDamg5);
+
+            //mCharacter1.RestoreHealth(1);
+            //int actualAfterHeal1 = mCharacter1.HealthPoints;
+            //int expectedAfterHeal1 = 101;
+            //Assert.AreEqual(expectedAfterHeal1, actualAfterHeal1);
+
+            //mCharacter2.RestoreHealth(100);
+            //int actualAfterHeal2 = mCharacter2.HealthPoints;
+            //int expectedAfterHeal2 = 300;
+            //Assert.AreEqual(expectedAfterHeal2, actualAfterHeal2);
 
             mCharacter3.RestoreHealth(100);
-            int actualAfterHeal = mCharacter3.HealthPoints;
-            int expectedAfterHeal = 400;
-            Assert.AreEqual(expectedAfterHeal, actualAfterHeal);
+            int actualAfterHeal3 = mCharacter3.HealthPoints;
+            int expectedAfterHeal3 = 400;
+            Assert.AreEqual(expectedAfterHeal3, actualAfterHeal3);
+
+            //mCharacter4.RestoreHealth(10);
+            //int actualAfterHeal4 = mCharacter4.HealthPoints;
+            //int expectedAfterHeal4 = 410;
+            //Assert.AreEqual(expectedAfterHeal4, actualAfterHeal4);
+
+            //mCharacter5.RestoreHealth(0);
+            //int actualAfterHeal5 = mCharacter5.HealthPoints;
+            //int expectedAfterHeal5 = 500;
+            //Assert.AreEqual(expectedAfterHeal5, actualAfterHeal5);
         }
 
 
